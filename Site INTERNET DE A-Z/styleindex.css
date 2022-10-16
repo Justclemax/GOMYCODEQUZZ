@@ -1,0 +1,108 @@
+body {
+    background-image: url("images/picto.png");
+    background-position: center;
+    background-size: cover;
+    font-family: 'poppins-bold', sans-serif !important;
+
+}
+
+h1 {
+    color: #fff !important;
+
+}
+
+.centre {
+    color: #ffffff !important;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.positionB {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+button {
+    padding: 20px 50px;
+    font-size: 35px;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: relative;
+    transition: all .2s;
+    overflow: hidden;
+    color: #000;
+    border-radius: 40px;
+    box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+}
+
+button a {
+    text-decoration: none;
+    color: #000;
+}
+
+button::after {
+    content: '';
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background-color: #fff;
+    z-index: -1;
+    transition: all .5s;
+}
+
+button:hover::after {
+    transform: rotate(150deg);
+}
+
+button:hover {}
+
+span {
+    color: orange !important;
+}
+
+header {
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+header h1 {
+    float: left;
+    margin-left: 50px;
+}
+
+header a {
+    float: right;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-linkedin {
+    background: #fff;
+    color: #fff;
+}
+
+.fa-pinterest {
+    background: #fff;
+    color: white;
+}
+
+.fa-reddit {
+    background: #fff;
+    color: white;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 50px;
+    text-decoration: none;
+    margin: 5px 5px;
+    color: #fff;
+}
